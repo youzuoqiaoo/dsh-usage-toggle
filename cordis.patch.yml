@@ -1,0 +1,20 @@
+# dsh-usage-toggle bundle patch
+#
+# This is the `dsh.bundle.patch` layer of the published npm package. When the
+# plugin is installed through the official CLI —
+#
+#   dsh plugin --profile <name> add dsh-usage-toggle@<version>
+#
+# — the command reconciles `dsh.profile.bundles` against installed packages
+# and, seeing this declaration, appends `dsh-usage-toggle` to the bundle stack.
+# The profile boot then merges THIS patch (a single `insert` of the plugin row)
+# exactly like the manual cordis.patch.yml mount line. No profile file edits
+# needed: one command installs and mounts.
+#
+# `dsh-usage-toggle` is a pure client-side UI plugin. Inserting this row mounts
+# its host half (an empty apply that reserves the row), and the browser half is
+# discovered automatically through the package's `dsh.client` declaration —
+# so no client injects need writing by hand here.
+- insert:
+    - id: usage-toggle
+      name: 'dsh-usage-toggle'
