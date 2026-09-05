@@ -27,7 +27,7 @@
 dsh plugin --profile web add dsh-usage-toggle
 
 # 直接从 GitHub 仓库安装:
-dsh plugin --profile web add https://github.com/<你的GitHub用户名>/dsh-usage-toggle
+dsh plugin --profile web add https://github.com/youzuoqiaoo/dsh-usage-toggle
 
 # 从本地目录安装(开发用):
 dsh plugin --profile web add dsh-usage-toggle@file:../dsh-usage-toggle
@@ -87,7 +87,7 @@ dsh-usage-toggle/
    git add .
    git commit -m "dsh-usage-toggle: 初始提交"
    git branch -M main
-   git remote add origin git@github.com:<你的GitHub用户名>/dsh-usage-toggle.git
+git remote add origin git@github.com:youzuoqiaoo/dsh-usage-toggle.git
    git push -u origin main
    ```
 

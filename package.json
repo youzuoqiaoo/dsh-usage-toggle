@@ -34,6 +34,7 @@
     "type": "git",
     "url": "git+https://github.com/youzuoqiaoo/dsh-usage-toggle.git"
   },
+  "homepage": "https://github.com/youzuoqiaoo/dsh-usage-toggle#readme",
   "license": "MIT",
   "dsh": {
     "bundle": {

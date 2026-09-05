@@ -34,7 +34,7 @@ bundle. Install it into a profile with the DSH CLI:
 dsh plugin --profile web add dsh-usage-toggle
 
 # From a GitHub repository directly:
-dsh plugin --profile web add https://github.com/<YOUR_GITHUB_USERNAME>/dsh-usage-toggle
+dsh plugin --profile web add https://github.com/youzuoqiaoo/dsh-usage-toggle
 
 # From a local directory (for development):
 dsh plugin --profile web add dsh-usage-toggle@file:../dsh-usage-toggle
@@ -105,7 +105,7 @@ dsh-usage-toggle/
    git add .
    git commit -m "dsh-usage-toggle: initial commit"
    git branch -M main
-   git remote add origin git@github.com:<YOUR_GITHUB_USERNAME>/dsh-usage-toggle.git
+git remote add origin git@github.com:youzuoqiaoo/dsh-usage-toggle.git
    git push -u origin main
    ```
 
